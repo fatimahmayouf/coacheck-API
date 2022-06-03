@@ -14,7 +14,5 @@ public class CoachModel {
     Integer id;
     String name;
     String aboutHim;
-
     String email;
-    String password;
 }

@@ -17,7 +17,6 @@ public class TraineeModel {
     Float weight;
     Integer lose;
     String diseases;
-
     String email;
-    String password;
+
 }
