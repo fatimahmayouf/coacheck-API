@@ -18,5 +18,4 @@ public class TraineeModel {
     Integer lose;
     String diseases;
     String email;
-//
 }
