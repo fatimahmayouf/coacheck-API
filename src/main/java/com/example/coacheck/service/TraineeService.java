@@ -28,7 +28,19 @@ public class TraineeService {
 
     // add
     public void addTrainee(TraineeModel trainee){
-        //save
-
+        traineeRepository.save(trainee);
     }
+
+    // get one trainee
+    public TraineeModel getOneTrainee(Integer id){
+       return traineeRepository.getById(id);
+    }
+
+    // delete one trainee
+    public void deleteTrainee(Integer id){
+        traineeRepository.deleteById(id);
+    }
+
+    // update trainee
+
 }
